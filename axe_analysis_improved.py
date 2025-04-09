@@ -16,7 +16,7 @@ def create_db_connection():
             host="localhost",
             database="axe_assistant",  # Replace with actual DB name
             user="root",
-            password="Bjrock_007",      # Replace with actual password
+            password="",      # Replace with actual password
             port=3306,
             # Add buffer configuration to handle sort memory issues
             buffered=True,
